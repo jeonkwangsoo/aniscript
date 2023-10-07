@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.head {
+    margin-top: 50px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: lightgray;
+    overflow: auto;
+}
+[class*="nav"] {
+      float: left;
+      padding: 12px;
+      background-color: gray;
+      width: 200px;
+      border-top: none;
+      border-left: none;
+      border-right: 4px outset rgb(251, 226, 226);
+      border-bottom: 4px outset rgb(251, 226, 226);
+      color: white;
+}
+[class*="nav"]:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+[class*="nav"]:hover {
+    background-color: rgb(121, 121, 3);
+}
+[class*="nav"]:active {
+    background-color: rgb(167, 167, 60);
+}
+footer {
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 20px;
+    padding: 20px;
+    display: table;
+    content: "";
+    clear: both;
+}
+footer div {
+    float: left;
+    padding-left: 50px;
+}
+.section1 {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(247, 99, 7);
+    margin-top: 20px;
+}
+.section1 div {
+    float: left;
+    padding: 20px;
+}
+
+canvas {
+    border: 1px solid tomato; 
+}
+nav button {
+    margin-left: 20px;
+    width: 120px;
+}
+section div button {
+    margin: 10px 50px;
+    width: 100px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
